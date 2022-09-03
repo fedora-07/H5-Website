@@ -187,7 +187,10 @@ footer {
     header nav,
     header nav li,
     #newsletter h1,
-    #newsletter form {
+    #newsletter form,
+    #boxes .box,
+    article#main-col,
+    aside#sidebar {
         float: none;
         text-align: center;
         width: 100%;
@@ -201,12 +204,16 @@ footer {
         margin-top: 40px;
     }
 
-    #newsletter button {
+    #newsletter button,
+    .quote button {
         display: block;
         width: 100%;
     }
 
-    #newsletter form input[type="email"] {
-        margin-bottom: ;
+    #newsletter form input[type="email"],
+    .quote input,
+    .quote textarea {
+        width: 100%;
+        margin-bottom: 5px;
     }
 }
